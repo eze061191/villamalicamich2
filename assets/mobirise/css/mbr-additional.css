@@ -9737,8 +9737,33 @@ a {
   background: #335e7e;
   color: initial;
 }
+.cid-tOgVzusUld {
+  background-image: url("../../../assets/images/image-imgs-full-high-1-7506-1440x786.webp");
+}
+.cid-tOgVzusUld .mbr-section-title DIV {
+  text-align: center;
+}
+.cid-tOgVzusUld .mbr-text,
+.cid-tOgVzusUld .mbr-section-btn {
+  text-align: center;
+}
+.cid-tOgVzusUld .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-tOgVzusUld .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-tOgVzusUld .mbr-section-title {
+  text-align: center;
+}
 .cid-tOg1Nu2RuW {
-  padding-top: 150px;
+  padding-top: 75px;
   padding-bottom: 75px;
   background-color: #ffffff;
 }
