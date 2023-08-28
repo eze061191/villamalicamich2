@@ -74,7 +74,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 77,
+    "uniqCompNum": 87,
     "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -1114,7 +1114,7 @@
           },
           "_name": "content12",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "tO5k0I7jVW",
           "_anchor": "content12-q",
           "_protectedParams": [],
@@ -2300,8 +2300,7 @@
           "_params": {}
         },
         {
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -2312,14 +2311,15 @@
               "flex-wrap": "wrap"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-v",
-          "_isUserblock": true,
-          "_cid": "tO5pxy2OAH",
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tOggE3TWVa",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content12-2a"
         },
         {
           "alias": false,
@@ -3420,8 +3420,7 @@
           "_params": {}
         },
         {
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -3432,14 +3431,15 @@
               "flex-wrap": "wrap"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-15",
-          "_isUserblock": true,
-          "_cid": "tO5Gi7XrFB",
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tOghIQ9u95",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content12-2b"
         },
         {
           "alias": false,
@@ -4581,8 +4581,7 @@
           "_params": {}
         },
         {
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -4593,14 +4592,15 @@
               "flex-wrap": "wrap"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-1c",
-          "_isUserblock": true,
-          "_cid": "tO5Ol4T990",
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tOgvtd8j1F",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content12-2c"
         },
         {
           "alias": false,
@@ -5988,8 +5988,7 @@
           "_anchor": "gallery1-1k"
         },
         {
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -6000,14 +5999,15 @@
               "flex-wrap": "wrap"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-1m",
-          "_isUserblock": true,
-          "_cid": "tOfLE5pAjG",
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tOgvVKxjzA",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content12-2d"
         },
         {
           "alias": false,
@@ -7574,8 +7574,7 @@
           "_anchor": "video-1r"
         },
         {
-          "_name": "content12",
-          "_sourceTheme": "mobirise5",
+          "alias": false,
           "_styles": {
             "padding-top": "(@paddingTop * 1rem)",
             "padding-bottom": "(@paddingBottom * 1rem)",
@@ -7586,14 +7585,15 @@
               "flex-wrap": "wrap"
             }
           },
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"2\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#edefeb\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"page7.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"page8.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
-          "_anchor": "content12-1s",
-          "_isUserblock": true,
-          "_cid": "tOfRZgHNDi",
+          "_name": "content12",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content12\" group=\"Content\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"1\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" value=\"10\" step=\"1\">\n        <header>Background</header>\n        <input type=\"color\" title=\"Color\" name=\"bgColor\" value=\"#f7f7f7\">\n    </mbr-parameters>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-12 col-lg-{{textWidth}}\">\n                <div class=\"mbr-section-btn align-center\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrAddBtn\"><a class=\"btn btn-danger\" href=\"long-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Long-Term Lease</a>\n                    <a class=\"btn btn-danger\" href=\"short-term-lease.html\" data-app-placeholder=\"Type Text\"><span class=\"fa fa-calendar-o mbr-iconfont mbr-iconfont-btn\"></span>Short-Term Lease</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "tOgy14JYSt",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
-          "_params": {}
+          "_params": {},
+          "_anchor": "content12-2e"
         },
         {
           "alias": false,
