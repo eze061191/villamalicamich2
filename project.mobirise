@@ -74,7 +74,7 @@
     "cookiesAlert": false,
     "gdpr": false,
     "pwa-switcher": false,
-    "uniqCompNum": 89,
+    "uniqCompNum": 101,
     "versionPublish": "5.9.0",
     "screenshot": "screenshot.png",
     "mcSmartCart": {
@@ -4364,217 +4364,200 @@
           "_params": {}
         },
         {
-          "alias": false,
+          "_name": "slider1",
+          "_sourceTheme": "superfoodm5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider1\" group=\"Sliders & Galleries\" mbr-class=\"{'mbr-fullscreen': fullScreen, 'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <input type=\"id\" name=\"sliderId\">\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"!fullScreen\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Icon\" value=\"#000000\" name=\"colorArrow\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\">\n        <input type=\"color\" title=\"Hover Buttons\" value=\"#f4aee6\" name=\"colorBtn\" condition=\"showButtons\">\n        <header>Carousel</header>\n        <input type=\"checkbox\" title=\"Fade Effect\" name=\"fade\" checked>\n        <input type=\"checkbox\" title=\"Autoplay\" name=\"autoplay\">\n        <input type=\"range\" title=\"Interval\" name=\"interval\" min=\"3\" max=\"10\" value=\"5\" step=\"1\" condition=\"autoplay\">\n        <input type=\"checkbox\" title=\"Arows\" name=\"showArows\" checked>\n        <input type=\"color\" title=\"Arows\" value=\"#000000\" name=\"colorArrows\" condition=\"showArows\">\n        <input type=\"color\" title=\"Bg\" value=\"#fdfcff\" name=\"colorBArrows\" condition=\"showArows || showIndicators\">\n        <input type=\"color\" title=\"Hover\" value=\"#e582d2\" name=\"colorHArrows\" condition=\"showArows || showIndicators\">\n        <input type=\"checkbox\" title=\"Indicators\" name=\"showIndicators\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@ADDONS_PATH@/superfoodm5/components/_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffe2b7\" condition=\"overlay && bg.type == 'image'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type == 'image'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\"></div>\n    <div class=\"row\">\n        <div class=\"col-12 col-xxl-2\"></div>\n        <div class=\"col-12 col-lg-6 col-xxl-4 d-flex align-items-center\">\n            <div class=\"wrap\">\n            <h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title, .mbr-section-btn\"><b>Amenities and Services</b></h3>\n            <ul class=\"list mbr-fonts-style\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                <li><span style=\"font-size: 1.2rem;\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.</span><br></li>\n                <li><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony. All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.</li><li><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></li>\n            </ul>\n            <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\"><a class=\"btn btn-warning\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">Free Download</a></div>\n            </div>\n        </div>\n        <div class=\"col-12 col-lg-6\">\n        <div id=\"{{sliderId}}\" class=\"carousel slide\" mbr-class=\"{'carousel-fade': fade}\" data-ride=\"{{autoplay ? 'carousel' : false}}\" data-bs-ride=\"{{autoplay ? 'carousel' : false}}\" data-interval=\"{{interval*1000}}\" data-bs-interval=\"{{interval*1000}}\">\n        <ol class=\"carousel-indicators\" mbr-if=\"showIndicators\"> \n            <li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"1\" data-bs-slide-to=\"1\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"2\" data-bs-slide-to=\"2\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"3\" data-bs-slide-to=\"3\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"4\" data-bs-slide-to=\"4\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"5\" data-bs-slide-to=\"5\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"6\" data-bs-slide-to=\"6\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"7\" data-bs-slide-to=\"7\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"8\" data-bs-slide-to=\"8\" class></li><li data-target=\"#{{sliderId}}\" data-bs-target=\"#{{sliderId}}\" data-slide-to=\"9\" data-bs-slide-to=\"9\" class></li>\n            \n            \n        </ol>\n        <div class=\"carousel-inner\">\n            <div class=\"carousel-item slider-image item active\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-993-596x447.jpg\" alt data-slide-to=\"0\" data-bs-slide-to=\"0\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-995-596x447.jpg\" alt data-slide-to=\"1\" data-bs-slide-to=\"1\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-996-395x297.jpg\" alt data-slide-to=\"2\" data-bs-slide-to=\"2\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-997-596x447.jpg\" alt data-slide-to=\"3\" data-bs-slide-to=\"3\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-1008-596x447.jpg\" alt data-slide-to=\"4\" data-bs-slide-to=\"4\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-1011-596x447.jpg\" alt data-slide-to=\"5\" data-bs-slide-to=\"5\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-1014-395x297.jpg\" alt data-slide-to=\"6\" data-bs-slide-to=\"6\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp__1016-2-596x447.jpg\" alt data-slide-to=\"7\" data-bs-slide-to=\"7\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp_-1021-596x447.jpg\" alt data-slide-to=\"8\" data-bs-slide-to=\"8\">\n                </div>\n            </div><div class=\"carousel-item slider-image item\">\n                <div class=\"item-wrapper\">\n                    <img class=\"d-block w-100\" src=\"@PROJECT_PATH@/assets/images/gp__1030-1-596x447.jpg\" alt data-slide-to=\"9\" data-bs-slide-to=\"9\">\n                </div>\n            </div>\n            \n            \n        </div>\n        <a class=\"carousel-control carousel-control-prev\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-prev\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Previous</span>\n        </a>\n        <a class=\"carousel-control carousel-control-next\" href=\"#{{sliderId}}\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n            <span class=\"mobi-mbri mobi-mbri-arrow-next\" aria-hidden=\"true\"></span>\n            <span class=\"sr-only visually-hidden\">Next</span>\n        </a>\n    </div>\n        </div>\n    </div>\n</section>",
           "_styles": {
-            "padding-top": "(@paddingTop * 1rem)",
-            "padding-bottom": "(@paddingBottom * 1rem)",
-            "overflow": "hidden",
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
-            },
-            "& when (@bg-type = 'image')": {
-              "background-image": "url(@bg-value)"
-            },
-            "& when (@bgColor2) and (@bg-type = 'color')": {
-              ".two__background:before": {
-                "content": "''",
-                "position": "absolute",
-                "top": "0",
-                "right": "0",
-                "max-width": "49%",
-                "width": "100%",
-                "height": "100%",
-                "background-color": "@twoBgColor",
-                "z-index": "0"
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)",
+              ".carousel": {
+                "height": "800px",
+                "img": {
+                  "width": "100%",
+                  "height": "100%",
+                  "object-fit": "cover"
+                }
+              },
+              ".carousel-item, .carousel-inner": {
+                "height": "100%"
               }
             },
-            ".carousel-inner when (@showArrows)": {
-              "margin-bottom": "70px"
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
             },
-            ".slider__content": {
-              "padding-top": "52px",
-              "text-align": "left"
-            },
-            ".mbr-section-subtitle": {
-              "color": "#335e7e",
-              "margin-bottom": "13px",
-              "position": "relative",
-              "z-index": "1",
-              "& when (@showFigure)": {
-                "&:after": {
-                  "content": "''",
-                  "position": "absolute",
-                  "left": "-92px",
-                  "top": "147px",
-                  "width": "85px",
-                  "height": "85px",
-                  "z-index": "-1",
-                  "background-repeat": "no-repeat",
-                  "background-size": "cover",
-                  "background-image": "url(@figure)"
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)",
+              "& when (@overlay)": {
+                ".mbr-overlay": {
+                  "background": "@overlayColor",
+                  "opacity": "@overlayOpacity"
                 }
               }
             },
-            ".mbr-section-title": {
-              "margin-bottom": "33px"
-            },
-            ".slider__image": {
-              "margin-left": "11.8%"
-            },
-            ".img-wrap": {
-              "max-width": "100%",
-              "img": {
-                "width": "100%",
+            "& when (@fullScreen)": {
+              "padding-top": "0",
+              "padding-bottom": "0",
+              ".carousel": {
+                "width": "100%"
+              },
+              ".carousel-inner": {
+                "display": "flex",
+                "align-content": "center",
+                "align-items": "center"
+              },
+              ".carousel-item img": {
+                "height": "100vh",
                 "object-fit": "cover"
               }
             },
-            ".carousel-indicators": {
-              "flex-direction": "column",
-              "margin": "0",
-              "width": "fit-content",
-              "transition": "all 0.25s",
-              "height": "100%",
-              "left": "44.5%",
-              ".active": {
-                "background": "@indicatorsColor",
-                "opacity": "1",
-                "border": "none",
-                "&:before": {
-                  "content": "''",
-                  "display": "block",
-                  "position": "absolute",
-                  "top": "-14px",
-                  "left": "-14px",
-                  "width": "40px",
-                  "height": "40px",
-                  "border-radius": "50%",
-                  "background-color": "inherit",
-                  "opacity": "0.2"
-                }
+            ".carousel-caption": {
+              "bottom": "40px"
+            },
+            ".mobi-mbri-arrow-next": {
+              "margin-left": "5px"
+            },
+            ".mobi-mbri-arrow-prev": {
+              "margin-right": "5px"
+            },
+            ".carousel-control:hover": {
+              "background-color": "@colorHArrows"
+            },
+            ".item-wrapper": {
+              "width": "100%"
+            },
+            "@media (max-width: 767px)": {
+              ".container .carousel-control": {
+                "margin-bottom": "0"
               },
-              "li": {
-                "width": "12px",
-                "height": "12px",
-                "border": "none",
-                "margin-bottom": "30px",
-                "box-sizing": "border-box",
-                "background-color": "@indicatorsColor",
-                "border-radius": "50%",
-                "position": "relative",
-                "opacity": "0.2",
-                "&:last-child": {
-                  "margin-bottom": "0px"
-                }
+              ".content-slider-wrap": {
+                "width": "100% !important"
               }
             },
-            ".carousel-controls": {
-              "a": {
-                "border-radius": "50%",
-                "border": "2px solid @indicatorsColor",
-                "background-color": "transparent",
-                "span": {
-                  "transition": "all 0.3s",
-                  "color": "@indicatorsColor",
-                  "font-size": "18px"
+            ".container .carousel-indicators": {
+              "margin-bottom": "3px"
+            },
+            ".carousel-control": {
+              "top": "50%",
+              "width": "40px",
+              "height": "40px",
+              "margin-top": "-1.5rem",
+              "font-size": "22px",
+              "border-radius": "50%",
+              "transition": "all 0.3s",
+              "font-weight": "600",
+              "opacity": "1",
+              "color": "@colorArrow",
+              "background-color": "@colorBArrows",
+              "&.carousel-control-prev": {
+                "left": "0",
+                "margin-left": "2.5rem"
+              },
+              "&.carousel-control-next": {
+                "right": "0",
+                "margin-right": "2.5rem"
+              },
+              "@media (max-width: 767px)": {
+                "&.carousel-control-prev": {
+                  "margin-left": "1.5rem"
                 },
+                "&.carousel-control-next": {
+                  "margin-right": "1.5rem"
+                }
+              },
+              "& when not (@showArows)": {
+                ".mobi-mbri-arrow-prev, .mobi-mbri-arrow-next": {
+                  "display": "none"
+                },
+                "background-color": "inherit",
                 "&:hover": {
-                  ".mobi-mbri-left": {
-                    "transform": "translateX(-5px)"
-                  },
-                  ".mobi-mbri-right": {
-                    "transform": "translateX(5px)"
-                  }
+                  "background-color": "inherit"
                 }
-              },
-              ".carousel-control-next, .carousel-control-prev": {
+              }
+            },
+            ".carousel-indicators": {
+              "position": "absolute",
+              "bottom": "0",
+              "margin-bottom": "1.5rem !important",
+              "li": {
+                "max-width": "15px",
+                "height": "15px",
+                "width": "15px",
+                "max-height": "15px",
+                "margin": "3px",
+                "background-color": "@colorBArrows",
+                "border": "2px solid @colorBArrows",
+                "border-radius": "50%",
+                "transition": "all 0.3s",
                 "opacity": "1",
-                "width": "44px",
-                "height": "44px"
-              },
-              ".carousel-control-next": {
-                "right": "40%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
-              },
-              ".carousel-control-prev": {
-                "right": "45%",
-                "bottom": "5px",
-                "top": "auto",
-                "left": "auto"
-              }
-            },
-            "@media screen and (~'-ms-high-contrast: active'), (~'-ms-high-contrast: none')": {
-              ".image-element": {
-                "min-width": "50%"
-              },
-              ".media-container-row": {
-                "width": "100%"
-              }
-            },
-            "@media (max-width: 991px)": {
-              ".two__background:before": {
-                "max-width": "90%"
-              },
-              ".carousel-indicators": {
-                "flex-direction": "row",
-                "height": "50px",
-                "width": "100%",
-                "left": "auto",
-                "bottom": "0",
-                "right": "auto",
-                "li": {
-                  "margin": "0 16px"
-                }
-              },
-              ".slider__content": {
-                "padding-top": "0",
-                "margin-bottom": "72px"
-              },
-              ".mbr-section-subtitle": {
-                "margin-bottom": "6px",
-                "&:after": {
+                "&.active, &:hover": {
+                  "background-color": "@colorHArrows",
+                  "border-color": "@colorHArrows"
+                },
+                "&::after, &::before": {
                   "content": "none"
                 }
               },
-              ".mbr-section-title": {
-                "margin-bottom": "18px"
+              "&.ie-fix": {
+                "left": "50%",
+                "display": "block",
+                "width": "60%",
+                "margin-left": "-30%",
+                "text-align": "center"
               },
-              ".slider__image": {
-                "margin-left": "0",
-                "margin-bottom": "100px"
-              },
-              ".img-wrap": {
-                "width": "100%"
-              },
-              ".carousel-controls": {
-                "display": "none"
-              },
-              ".carousel-inner": {
-                "margin-bottom": "0"
+              "@media (max-width: 768px)": {
+                "display": "none !important"
               }
             },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
+            "ul": {
+              "list-style": "none",
+              "margin": "0",
+              "padding-left": "61px"
             },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
+            "li": {
+              "position": "relative",
+              "margin-bottom": "1.5rem"
+            },
+            "ul li::before": {
               "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
+              "content": "\"\\2192\"",
+              "left": "-61px",
+              "top": "-15%",
+              "color": "@colorArrow",
+              "font-weight": "bold",
+              "font-size": "2rem",
+              "width": "1.6rem",
+              "@media (max-width: 768px)": {
+                "top": "0"
               }
+            },
+            ".btn": {
+              "padding": "13px 37px 17px",
+              "margin-top": "25px",
+              "border-radius": "30px"
+            },
+            ".btn:hover, .btn:focus": {
+              "border-color": "@colorBtn !important",
+              "background-color": "@colorBtn !important"
+            },
+            ".mbr-section-title": {
+              "margin-bottom": "65px"
+            },
+            ".list": {
+              "color": "#000000"
+            },
+            ".wrap": {
+              "padding": "5rem 1rem",
+              "@media (min-width: 1400px)": {
+                "padding": "0 3rem"
+              }
+            },
+            ".mbr-section-title, .mbr-section-btn": {
+              "color": "#335e7e"
             }
           },
-          "_name": "slider3",
-          "_sourceTheme": "voyagem4",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"slider3 voyagem4_slider3 carousel slide testimonials-slider extSlider\" group=\"Sliders & Galleries\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" plugins=\"BootstrapCarouselSwipe,mbr-testimonials-slider\" data-interval=\"false\" data-bs-interval=\"false\">\n\n\t<mbr-parameters>\n\t\t\n\t\t<header>Size</header>\n\t\t<input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" inline>\n\t\t<input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"7\" inline>\n\t\t<header>Show/Hide</header>\n\t\t<input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n\t\t<input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n\t\t<input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n\t\t<input type=\"checkbox\" title=\"Figure\" name=\"showFigure\" condition=\"showSubtitle\" checked>\n\t\t<input type=\"image\" title=\"Figure\" name=\"figure\" value=\"@PROJECT_PATH@/assets/images/logomalicamich.webp\" condition=\"showFigure && showSubtitle\">\n\t\t<header>Slider</header>\n\t\t<input type=\"range\" inline title=\"Count Items\" name=\"testimonialsSlides\" min=\"1\" max=\"10\" step=\"1\" value=\"10\">\n\t\t<input type=\"checkbox\" title=\"Show Indicators\" name=\"showIndicators\" checked>\n\t\t<input type=\"checkbox\" title=\"Show Arrows\" name=\"showArrows\">\n\t\t<input type=\"color\" title=\"Arrows/Indicators Color\" name=\"indicatorsColor\" value=\"#003d59\" condition=\"showArrows || showIndicators\">\n\t\t<input type=\"checkbox\" title=\"Autoplay\" name=\"showAutoplay\" checked>\n\t\t<input type=\"range\" inline title=\"Autoplay Interval (ms)\" name=\"interval\" min=\"1000\" max=\"8000\" step=\"1000\" value=\"5000\" condition=\"showAutoplay\">\n\t\t<header>Background</header>\n\t\t<fieldset type=\"background\" name=\"bg\" parallax>\n\t\t\t<input type=\"image\" title=\"Image\" value=\"../_images/background.jpg\">\n\t\t\t<input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n\t\t\t<input type=\"video\" title=\"Video\" value=\"https://www.youtube.com/watch?v=pjiVuLVqWQg\">\n\t\t</fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n\n\t\t<input type=\"checkbox\" title=\"2 BG Color\" name=\"bgColor2\" condition=\"bg.type == 'color'\" checked>\n\t\t<input type=\"color\" title=\"2 Background Color\" value=\"#f7f7f7\" name=\"twoBgColor\" condition=\"bgColor2 && bg.type == 'color'\">\n\t\t<input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n\t\t<input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay&&bg.type !== 'color'\">\n\t\t<input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay&&bg.type !== 'color'\">\n\t\t\n\t</mbr-parameters>\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n\n\n\t<div class=\"mbr-overlay\" mbr-if=\"overlay&&bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n\t</div>\n\t<div class=\"two__background\"></div>\n\t<div class=\"container-fluid\">\n\n\t\t<div class=\"carousel slide\" role=\"listbox\" data-pause=\"true\" data-keyboard=\"false\" data-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-bs-ride=\"{{showAutoplay ? 'carousel' : 'false'}}\" data-interval=\"{{showAutoplay ? interval : 'false'}}\" data-bs-interval=\"{{showAutoplay ? interval : 'false'}}\">\n\t\t\t<div mbr-list mbr-list-grow=\"testimonialsSlides\" class=\"carousel-inner\">\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-993.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\n\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\"></h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-995.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1008.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-997.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t\n\t\t\t<div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1016.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1030.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1021.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1014.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-1011.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div><div class=\"carousel-item\">\n\t\t\t\t\t<div class=\"media-container-row\">\n\t\t\t\t\t\t<div class=\"col-12 col-lg-4 offset-lg-1 slider__content\">\n\t\t\t\t\t\t\t<h4 class=\"mbr-section-subtitle mbr-regular mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">GALLERY</h4>\n\t\t\t\t\t\t\t<h3 class=\"mbr-section-title mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Amenities and Services</h3>\n\t\t\t\t\t\t\t<p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showText\" data-app-selector=\".mbr-text\"><b>First Floor:</b> an open concept kitchen with a spacious island, a living room perfect for entertainment, a bedroom with its own en-suite and handicap accessible, an ample terrace, private pool and a full outside bathroom.\n<br>\n<br><b>Second Floor:</b> three bedrooms and two full bathrooms distributed as follows. The main room with an en-suite, a walk-in closet and beautiful balcony. Two extra bedrooms, a family room, a full bathroom and an amazing common balcony.\n<br>All areas have air conditioning and ceiling fans for your comfort. We also have high speed internet, smart TVS and Amazon Fire Sticks for your convenience and entertainment, hot water all over the villa.\n<br>\n<br><b>Malicamich offers casual, comfortable living areas for your convenience can be utilized to accommodate ten guests.</b></p>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div class=\"col-12 col-lg-7\">\n\t\t\t\t\t\t\t<div class=\"slider__image\">\n\t\t\t\t\t\t\t\t<div class=\"img-wrap\">\n\t\t\t\t\t\t\t\t\t<img src=\"@PROJECT_PATH@/assets/images/gp-996.jpg\" alt title>\n\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t\t</div>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div></div>\n\t\t\t<div class=\"carousel-indicators\" mbr-if=\"showIndicators\">\n\t\t\t\t<li data-slide-to=\"0\" data-bs-slide-to=\"0\" class=\"active\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 1\" data-bs-slide-to=\"1\" data-slide-to=\"1\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 2\" data-bs-slide-to=\"2\" data-slide-to=\"2\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 3\" data-bs-slide-to=\"3\" data-slide-to=\"3\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 4\" data-bs-slide-to=\"4\" data-slide-to=\"4\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 5\" data-bs-slide-to=\"5\" data-slide-to=\"5\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 6\" data-bs-slide-to=\"6\" data-slide-to=\"6\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 7\" data-bs-slide-to=\"7\" data-slide-to=\"7\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 8\" data-bs-slide-to=\"8\" data-slide-to=\"8\"></li>\n\t\t\t\t<li mbr-if=\"testimonialsSlides> 9\" data-bs-slide-to=\"9\" data-slide-to=\"9\"></li>\n\t\t\t</div>\n\n\t\t\t<div class=\"carousel-controls\" mbr-if=\"showArrows\">\n\t\t\t\t<a data-app-prevent-settings class=\"carousel-control carousel-control-prev\" role=\"button\" data-slide=\"prev\" data-bs-slide=\"prev\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-left mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only visually-hidden\">Previous</span>\n\t\t\t\t</a>\n\t\t\t\t<a data-app-prevent-settings class=\"carousel-control carousel-control-next\" role=\"button\" data-slide=\"next\" data-bs-slide=\"next\">\n\t\t\t\t\t<span aria-hidden=\"true\" class=\"mbr-iconfont mobi-mbri-right mobi-mbri\"></span>\n\t\t\t\t\t<span class=\"sr-only visually-hidden\">Next</span>\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n</section>",
-          "_cid": "tO5IV40b4a",
-          "_anchor": "slider3-1b",
+          "_cid": "tOWoZNHFVI",
+          "_anchor": "slider1-2s",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
